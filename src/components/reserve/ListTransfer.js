@@ -9,9 +9,9 @@ const ListTransfer = ({transfer,setTransfer,setListado}) => {
   useEffect(() => {
     setTransfer(transferIda);
     setListado(transferIda);
-    console.log("Transfer cargados");
+    //console.log("Transfer cargados");
     //setVuelta(transferVuelta);
-    console.log("Transfer Vuelta cargados")
+    //console.log("Transfer Vuelta cargados")
   }, [])
 
 

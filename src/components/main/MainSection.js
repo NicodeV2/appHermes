@@ -14,9 +14,11 @@ const MainSection = () => {
     const [bag , setBag] = useState(1);
     const [transfer, setTransfer] = useState([]);
     const [listado,setListado] = useState([]);
+  //  console.log("main:"+pax);
     
-    
-    console.log(pax);
+
+    //setTransfer(listado.filter(item => item.max_pax >= pax));
+    //console.log(pax);
     return (
         <>
             <section className="home-section">
@@ -34,7 +36,6 @@ const MainSection = () => {
                      bag={bag}
                      setBag={setBag}
                      listado={listado}
-                     transfer={transfer}
                      setTransfer = {setTransfer}
                     
                     />
